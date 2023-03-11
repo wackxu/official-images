@@ -1,0 +1,60 @@
+# tarballs built by debuerreotype
+# see https://github.com/debuerreotype/debuerreotype
+
+Maintainers: Tianon Gravi <tianon@debian.org> (@tianon),
+             Paul Tagliamonte <paultag@debian.org> (@paultag)
+GitRepo: https://github.com/debuerreotype/docker-debian-artifacts.git
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+# https://github.com/debuerreotype/docker-debian-artifacts/tree/dist-amd64
+amd64-GitFetch: refs/heads/dist-amd64
+amd64-GitCommit: fe5738569aad49a97cf73183a8a6b2732fe57840
+# https://github.com/debuerreotype/docker-debian-artifacts/tree/dist-arm32v5
+arm32v5-GitFetch: refs/heads/dist-arm32v5
+arm32v5-GitCommit: a87eeed3565bc222ef00e6724923b6510161b0c0
+# https://github.com/debuerreotype/docker-debian-artifacts/tree/dist-arm32v7
+arm32v7-GitFetch: refs/heads/dist-arm32v7
+arm32v7-GitCommit: ea84507f6ae63db7874c210715bed810d0b3cecd
+# https://github.com/debuerreotype/docker-debian-artifacts/tree/dist-arm64v8
+arm64v8-GitFetch: refs/heads/dist-arm64v8
+arm64v8-GitCommit: 2776d8c4859a7e6e275ee8b5dd144488d7387c24
+# https://github.com/debuerreotype/docker-debian-artifacts/tree/dist-i386
+i386-GitFetch: refs/heads/dist-i386
+i386-GitCommit: 42d455da00e986fa7bbcf11a47ff3d8c55920083
+# https://github.com/debuerreotype/docker-debian-artifacts/tree/dist-mips64le
+mips64le-GitFetch: refs/heads/dist-mips64le
+mips64le-GitCommit: 16b458e0a6a947c23f0e0abf739cd9bd55137965
+# https://github.com/debuerreotype/docker-debian-artifacts/tree/dist-ppc64le
+ppc64le-GitFetch: refs/heads/dist-ppc64le
+ppc64le-GitCommit: 191ebf5c61dc520eda86d8eff74eb0cd5a0c0a66
+# https://github.com/debuerreotype/docker-debian-artifacts/tree/dist-riscv64
+riscv64-GitFetch: refs/heads/dist-riscv64
+riscv64-GitCommit: dd1ccf7860e8f24acba442132ef5fff1aff26a53
+# https://github.com/debuerreotype/docker-debian-artifacts/tree/dist-s390x
+s390x-GitFetch: refs/heads/dist-s390x
+s390x-GitCommit: b7dc90280a58fe13791f9ff162bef97e299af89a
+
+# bookworm -- Debian x.y Testing distribution - Not Released
+Tags: bookworm, bookworm-20230227
+Architectures: amd64
+Directory: bookworm
+
+Tags: bookworm-backports
+Architectures: amd64
+Directory: bookworm/backports
+
+Tags: bookworm-slim, bookworm-20230227-slim
+Architectures: amd64
+Directory: bookworm/slim
+
+# bullseye -- Debian 11.6 Released 17 December 2022
+Tags: bullseye, bullseye-20230227, 11.6, 11, latest
+Architectures: amd64
+Directory: bullseye
+
+Tags: bullseye-backports
+Architectures: amd64
+Directory: bullseye/backports
+
+Tags: bullseye-slim, bullseye-20230227-slim, 11.6-slim, 11-slim
+Architectures: amd64
+Directory: bullseye/slim
